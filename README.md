@@ -38,7 +38,7 @@ Welcome to the 01Talent Profile App! This web application allows users to view a
 
 ## 🌐 Live Demo 🌐
 
-Visit [01 Talent profile]() for a live demonstration.
+Visit [01 Talent profile](https://spiffy-paletas-0d658e.netlify.app/index.html) for a live demonstration.
 
 ## Author 👤
 
