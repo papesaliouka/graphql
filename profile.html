@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./assets/styles/styles.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.png"
+      type="image/x-icon"
+    />
+    <title>01 Talent</title>
+  </head>
+  <body>
+    <main class="profile">
+      <header>
+        <h2>
+          Welcome, <span id="userLastName"></span>
+          <span id="userFirstName"></span>!
+        </h2>
+        <a id="logoutButton" alt="logout"
+          ><span class="material-symbols-outlined"> logout </span></a
+        >
+      </header>
+      <p class="createdAt">
+        You joined zone01 on: <span id="createdAt"></span>
+      </p>
+
+      <div class="divAndAudits">
+        <!-- Div-01 data -->
+        <div class="div01">
+          <h3>Div-01 Statistics</h3>
+          <p>XP: <span id="xpDiv01Amount"></span> kB</p>
+          <p>Level: <span id="div01Level"></span></p>
+        </div>
+
+        <!-- Audits data -->
+        <div class="audits">
+          <h3>Audits</h3>
+          <p>Audit done : <span id="auditDone"></span> kB</p>
+          <p>Audit received : <span id="auditReceived"></span> kB</p>
+        </div>
+      </div>
+
+      <!-- Projects done -->
+      <div class="projectsDone">
+        <h3>Projects</h3>
+        <p>You've validated <span id="projects"></span> projects</p>
+      </div>
+
+      <!-- Graphs -->
+      <div class="graphSection">
+        <div class="firstGraph">
+          <h2 class="graph-title">Top 10 Projects done</h2>
+          <div id="graph">
+            <p>
+              You can sover over a bar to display more details about the
+              corresponding project
+            </p>
+          </div>
+        </div>
+        <div class="secondGraph">
+          <h2 class="graph-title">More about audits</h2>
+          <div id="ratioGraph">
+            <p>Audit Ratio : <span id="auditRatio"></span></p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script type="module" src="./assets/scripts/profile.js"></script>
+  </body>
+</html>
