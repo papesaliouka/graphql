@@ -38,10 +38,10 @@ Welcome to the 01Talent Profile App! This web application allows users to view a
 
 ## 🌐 Live Demo 🌐
 
-Visit [01 Talent profile](https://zone01dakartalent.netlify.app) for a live demonstration.
+Visit [01 Talent profile]() for a live demonstration.
 
 ## Author 👤
 
-- [Oumar LAM](https://github.com/OumarLAM) 🚀
+- [Pape Saliou Ka](https://github.com/papesaliouka) 🚀
 
 Feel free to contribute or open issues if you have any suggestions or improvements!
